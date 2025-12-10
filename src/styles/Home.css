@@ -1,0 +1,134 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f1f1f1; /* Soft background color */
+}
+
+/* Container class for the whole page */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* White background for the content area */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #009688; /* Teal background */
+  color: #fff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  border-bottom: 2px solid #004d40; /* Darker teal border for separation */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li button {
+  color: #fff;
+  background: none;
+  border: 2px solid transparent; /* Transparent border for smooth hover effect */
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 30px; /* Rounded button corners */
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar ul li button:hover {
+  background-color: #004d40; /* Darker teal background on hover */
+  border-color: #004d40; /* Border turns darker teal on hover */
+  transform: scale(1.05); /* Slightly grow the button */
+}
+
+/* Section styling */
+.section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fafafa; /* Light gray background for each section */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  margin-bottom: 40px; /* Spacing between sections */
+}
+
+h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #00796b; /* Dark Teal color for headings */
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #333; /* Dark text for readability */
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #555; /* Slightly lighter text color */
+}
+
+ul li strong {
+  color: #00796b; /* Teal color for emphasis */
+}
+
+a {
+  color: #009688; /* Teal link color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #004d40; /* Darker teal on hover */
+}
+
+/* Footer styling */
+.footer {
+  background-color: #00796b; /* Teal footer */
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #004d40; /* Darker teal border for footer */
+}
+
+.footer p {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #e0f2f1; /* Light teal text color */
+}
+
