@@ -1,0 +1,63 @@
+footer {
+  background-color: #009688; /* New background color */
+  color: #f1f1f1; /* Light text color for contrast */
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 1rem;
+  position: relative;
+}
+
+footer a {
+  color: #f1f1f1; /* Default link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ff7b00; /* Hover color (orange) */
+}
+
+footer .social-icons {
+  margin-top: 20px;
+}
+
+footer .social-icons a {
+  margin: 0 30px;
+  font-size: 1.8rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  transform: translateY(-5px);
+  color: #ff7b00; /* Hover color (orange) */
+}
+
+footer .social-icons .github:hover {
+  color: #333; /* GitHub hover color (dark gray) */
+}
+
+footer .social-icons .linkedin:hover {
+  color: #0077b5; /* LinkedIn hover color (blue) */
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #ffffff; /* Lighter gray for text */
+}
+
+footer .credit {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #dff0f9; /* Lighter gray for credit text */
+}
+
+footer .credit a {
+  color: #f1f1f1; /* Match the link color */
+}
+
+@media (max-width: 600px) {
+  footer .social-icons a {
+    font-size: 1.6rem;
+  }
+}

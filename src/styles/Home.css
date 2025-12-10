@@ -113,22 +113,3 @@ a:hover {
   text-decoration: underline;
   color: #004d40; /* Darker teal on hover */
 }
-
-/* Footer styling */
-.footer {
-  background-color: #00796b; /* Teal footer */
-  color: #fff;
-  text-align: center;
-  padding: 25px 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  border-top: 2px solid #004d40; /* Darker teal border for footer */
-}
-
-.footer p {
-  font-size: 1rem;
-  font-weight: lighter;
-  color: #e0f2f1; /* Light teal text color */
-}
-
