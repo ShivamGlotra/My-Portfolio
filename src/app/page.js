@@ -11,10 +11,11 @@ import Career from './navigation/career'
 import Interests from './navigation/interest'
 import Goals from './navigation/goals'
 import Projects from './navigation/projects'
+import LandingPage from './navigation/LandingPage'
 
 export default function Home() {
   // State to control which section is active
-  const [activeSection, setActiveSection] = useState('about')
+  const [activeSection, setActiveSection] = useState('LandingPage')
   const [showNavbar, setShowNavbar] = useState(true)
 
   useEffect(() => {
@@ -38,6 +39,7 @@ export default function Home() {
 
   // Map the active section to the corresponding component
   const sections = {
+    LandingPage: <LandingPage onProceed={() => setActiveSection('about')} />,
     about: <About />,
     career: <Career />,
     interests: <Interests />,
@@ -50,6 +52,9 @@ export default function Home() {
       {/* Navbar */}
       <nav className={`navbar ${showNavbar ? 'navbar-visible' : 'navbar-hidden'}`}>
         <ul>
+          <li>
+            <button onClick={() => setActiveSection('LandingPage')}>Home</button>
+          </li>
           <li>
             <button onClick={() => setActiveSection('about')}>About Me</button>
           </li>

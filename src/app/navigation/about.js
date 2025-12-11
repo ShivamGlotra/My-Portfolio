@@ -75,7 +75,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            Download Resume
+            View Resume
           </a>
         </div>
 
@@ -85,7 +85,7 @@ export default function About() {
           aria-label="Summary and skills"
         >
           <p>
-            I am a Computer Science student passionate about Web Front-End and
+            I am a Computer Science student passionate about Web programming and
             Mobile Application Development. I build responsive, modern, and
             interactive interfaces that delight users. I enjoy learning new
             technologies, contributing to open-source projects, and constantly
@@ -93,8 +93,8 @@ export default function About() {
           </p>
 
           <p>
-            I have hands-on experience in web development, having interned at{" "}
-            <strong>goeasy</strong>, where I worked with technologies
+            I have hands-on experience in web development, while interning at{" "}
+            <strong>goeasy</strong>, where I work with technologies
             like <strong>React</strong>, <strong>Next.js</strong>, and{" "}
             <strong>Flutter</strong>.
           </p>
@@ -116,7 +116,7 @@ export default function About() {
               <span className="skill-chip">Java</span>
             </div>
 
-            <div className="skill-bars">
+            {/* <div className="skill-bars">
               <div className="skill">
                 <div className="skill-name">React</div>
                 <div className="skill-bar">
@@ -171,7 +171,7 @@ export default function About() {
                   ></div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

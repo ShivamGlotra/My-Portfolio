@@ -30,14 +30,11 @@ export default function Goals() {
           <div className="goal-card" key={i} role="article" aria-label={g.title}>
             <div className="goal-header">
               <h3>{g.title}</h3>
-              <div className="goal-percent">{g.progress}%</div>
             </div>
 
             <p className="goal-desc">{g.desc}</p>
 
-            <div className="goal-progress" aria-hidden>
-              <div className="goal-progress-fill" style={{ width: `${g.progress}%` }} />
-            </div>
+          
           </div>
         ))}
       </div>
@@ -49,6 +46,9 @@ export default function Goals() {
           <li>Write unit & integration tests, and add CI to projects.</li>
           <li>Contribute to open-source and collaborate on team projects.</li>
           <li>Improve system design and architecture knowledge.</li>
+          <li>Learn advanced topics like performance optimization and security.</li>
+          <li>Take on leadership roles in projects and mentor others.</li>
+          <li>Devops basics: CI/CD, containerization, cloud services.</li>
         </ol>
       </div>
     </section>
