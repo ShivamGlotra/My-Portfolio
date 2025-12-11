@@ -27,7 +27,7 @@ export default function Interests() {
             {hobbies.map((h, i) => (
               <article key={i} className="focus-card" aria-label={h.title}>
                 <div className="focus-icon" aria-hidden="true">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="4" stroke="#00bfa5" strokeWidth="1.5" fill="#e8f5f2"/></svg>
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="4"  strokeWidth="1.5" fill="#135344ff"/></svg>
                 </div>
                 <div className="focus-body">
                   <strong>{h.title}</strong>

@@ -5,28 +5,28 @@ export default function Projects() {
       desc: 'A desktop application for managing bank accounts and e-commerce transactions with user authentication and secure payments.',
       tech: ['JavaFX', 'SQL', 'Java'],
       status: 'Completed',
-      link: '#'
+      link: 'https://github.com/ShivamGlotra/My-Projects'
     },
     {
       title: 'AI Meal Finder',
       desc: 'Desktop app that recommends meals based on dietary preferences and ingredients using AI suggestions.',
       tech: ['C#', '.NET', 'AI'],
       status: 'Completed',
-      link: '#'
+      link: 'https://github.com/ShivamGlotra/SpurHacks2025--Feel2Meal'
     },
     {
       title: 'E-Commerce Web App',
       desc: 'Full-stack web application with product catalog, shopping cart, and payment integration.',
       tech: ['Next.js', 'Node.js', 'Express', 'React', 'SQL'],
       status: 'In Progress',
-      link: '#'
+      link: 'https://github.com/ShivamGlotra/E-Commerce'
     },
     {
       title: 'Live Sports App',
       desc: 'Real-time sports updates and live scores app with instant notifications and detailed match analytics and live news.',
       tech: ['Flutter', 'Firebase', 'Node.js', 'Express'],
       status: 'In Progress',
-      link: '#'
+      link: 'https://github.com/ShivamGlotra/flutterApp'
     }
   ]
 

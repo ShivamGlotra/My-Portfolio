@@ -1,25 +1,31 @@
 export default function Career() {
   const experiences = [
     {
-      role: 'Software Engineering Intern',
-      company: '[Company Name]',
-      period: 'Jun 2024 — Aug 2024',
+      role: 'Mobile Application Developer Intern',
+      company: 'goeasy Ltd.',
+      period: 'Sept 2025 — April 2026',
       points: [
         'Built responsive UI components using React and maintained cross-browser compatibility.',
         'Collaborated on REST APIs and integrated frontend with Node.js backend services.',
+        'Participated in code reviews and team meetings to ensure high code quality.',
+        'Developed and maintained a Flutter mobile app with seamless iOS and Android deployment.',
         'Improved application performance and accessibility across key flows.'
       ],
-      tech: ['React', 'Node.js', 'JavaScript', 'CSS']
+      tech: ['React', 'Next.js', 'TypeScript', 'Flutter', 'Dart', 'Firebase','bitbucket','Jira', 'Confluence','Contentful']
     },
     {
-      role: 'Open Source Contributor',
-      company: 'Personal Projects / OSS',
-      period: '2023 — Present',
+      role: 'Junior Backend Developer Intern',
+      company: 'StuSynch Soudelka',
+      period: 'June 2025 — Aug 2025',
       points: [
-        'Contributed bug fixes and features to community libraries.',
-        'Authored clear PRs with tests and documentation updates.'
+        'Developed RESTful APIs using Node.js and Express to support mobile app features.',
+        'Implemented database schemas and queries with Firebase for efficient data storage and retrieval.',
+        'Collaborated with frontend developers to integrate APIs and ensure smooth data flow.',
+        'Wrote unit tests to validate API functionality and improve code reliability.',
+        'Set up CI/CD pipelines for automated testing and deployment.'
       ],
-      tech: ['Git', 'GitHub', 'TypeScript']
+      tech: [
+        'TypeScript','Git', 'GitLab', 'Node.js', 'Express', 'Firebase', 'REST APIs', 'Postman' ]
     }
   ]
 
@@ -28,8 +34,8 @@ export default function Career() {
       <h2 id="career-heading">Career</h2>
 
       <p>
-        I am a driven and adaptable Computer Science student with practical experience from internships and open-source
-        contributions. I focus on building maintainable frontend applications, collaborating with teams, and continuously
+        I am a driven and adaptable Computer Science student with practical experience from internships and personal 
+        projects. I focus on building maintainable frontend applications, collaborating with teams, and continuously
         improving code quality.
       </p>
 
