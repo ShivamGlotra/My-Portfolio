@@ -34,7 +34,7 @@ export default function About() {
 
           <div className="social-icons" aria-hidden="false">
             <a
-              href="https://github.com/"
+              href="https://github.com/ShivamGlotra/"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
@@ -51,7 +51,7 @@ export default function About() {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/shivam-glotra-86a62318b/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -71,7 +71,7 @@ export default function About() {
 
           <a
             className="cta-btn"
-            href="/resume.pdf"
+            href="https://www.linkedin.com/in/shivam-glotra-86a62318b/"
             target="_blank"
             rel="noreferrer"
           >

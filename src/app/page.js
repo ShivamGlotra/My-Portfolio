@@ -82,7 +82,7 @@ export default function Home() {
       <footer className="footer">
       <div className="social-icons" aria-hidden="false" style={{paddingLeft:"40%"}}>
             <a
-              href="https://github.com/"
+              href="https://github.com/ShivamGlotra/"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
@@ -99,7 +99,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/shivam-glotra-86a62318b/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
