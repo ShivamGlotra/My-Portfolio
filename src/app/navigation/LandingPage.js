@@ -17,10 +17,13 @@ export default function LandingPage({ onProceed }) {
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center text-white px-6">
         <h1 className="text-5xl md:text-7xl font-bold mb-4">
-          Shivam Glotra
+          Hi, I am <strong style={{color:'#00d492'}}> Shivam Glotra</strong>
         </h1>
-
-        <p className="text-lg md:text-2xl opacity-90 max-w-2xl mb-8">
+        <h2 className="!text-3xl md:text-2xl mb-6 !pt-4 !text-green-400">
+          Computer Science Student & Frontend Developer
+        </h2>
+        <p className="text-lg md:text-2xl !text-white/90 max-w-2xl mb-8">
+          Welcome to my portfolio! Explore my projects, skills, and experiences as a passionate developer.
         </p>
 
         <button 
